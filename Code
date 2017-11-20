@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>Array</title></head>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+<button onclick="myFunction()"> Click for Push Elements</button>
+
+<script>
+var Arr, Nmb, fLen, i;
+Arr = [3,4,5,6,76,7,8];
+
+Nmb = "";
+for (i = 0; i < [7]; i++) {
+    Nmb += Arr[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = Nmb;
+
+function myFunction(){
+Arr.push("888", "777", "666", "555");
+document.getElementById("demo").innerHTML = Arr;
+}
+console.log(Arr.pop(myFunction()));
+
+for (Nmbr of Arr){
+	console.log(Nmbr);
+}
+
+</script>
+
+</body>
+</html>
